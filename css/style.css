@@ -202,6 +202,10 @@ header {
     background-color: #F6F6F8;;
 }
 
+.quality__banner {
+    padding-bottom: 90px;
+}
+
 .quality__banner_title {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -253,6 +257,27 @@ header {
 
 .quality__banner_link:hover  {
     color: #4985FF;
+}
+
+/* .quality__standards_icon {
+    display: flex;
+    justify-content: center;
+} */
+
+.quality__standards_icon p {    
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.quality__standards_text {    
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
 }
 
 /* Footer */
