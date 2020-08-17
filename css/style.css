@@ -12,6 +12,27 @@ a:hover {
     color: #fff;
 }
 
+/* style for button */
+.button {
+    /* text style */   
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+    /* button style */    
+    padding: 15px 36px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
 /* Header */
 header {
     background-image: url(/image/headerBack.jpg);
@@ -72,10 +93,6 @@ header {
     width: 100%;
 }
 
-/* .header__menu-link:hover { 
-    border-bottom: 2px solid #fff;
-} */
-
 .header__line {
     margin: 0;
     opacity: 0.5;
@@ -98,13 +115,18 @@ header {
 .header__text {
     width: 100%;
     max-width: 829px;
-    margin: 0 auto;
+    margin: 20px auto 50px;
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
     text-align: center;    
     color: #FFFFFF;
+}
+
+.header__btn {
+    display: flex;
+    justify-content: center;
 }
 
 /* Main */
