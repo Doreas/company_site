@@ -130,5 +130,70 @@ header {
 }
 
 /* Main */
+/* main-services */
+.main-services {
+    padding: 67px 0;
+}
+
+.services__title {
+    width: 100%;
+    max-width: 739px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;    
+    color: #323232;
+}
+
+.servicex__text {    
+    width: 100%;
+    max-width: 730px;
+    margin: 50px auto 70px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.services__block {
+    padding-bottom: 55px;
+}
+
+.services__block-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__block_content {
+    position: relative;
+    top: 40%;
+    width: 100%;
+    max-width: 220px;
+}
+
+.services__block_content h3 {    
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.services__block_content p {    
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;    
+    color: #999999;
+}
+
+.services__btn {
+    display: flex;
+    justify-content: center;
+}
 
 /* Footer */
